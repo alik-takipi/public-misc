@@ -6,7 +6,7 @@ public class AlikApp
     public String getGreeting() throws Exception
     {
 //        return "Hello world.";
-        throw new AlikException86();
+        throw new AlikException87();
     }
 
     public static void main(String[] args) throws InterruptedException {
