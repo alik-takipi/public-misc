@@ -15,7 +15,7 @@ plugins {
 }
 
 // Define the main class for the application
-mainClassName = 'AlikApp133'
+mainClassName = 'AlikApp134'
 //group 'takipi'
 
 
@@ -36,7 +36,7 @@ repositories {
 
 jar {
     manifest {
-        attributes "Main-Class": "AlikApp133",
+        attributes "Main-Class": "AlikApp134",
                 "Takipi-Git-Repo-Url": "https://github.com/alik-takipi/public-misc.git"
     }
 }
