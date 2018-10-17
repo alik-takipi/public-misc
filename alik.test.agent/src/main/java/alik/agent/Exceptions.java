@@ -1,3 +1,5 @@
+package alik.agent;
+
 public class Exceptions
 {
 
