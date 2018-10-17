@@ -1,12 +1,12 @@
 package alik.agent;
 
-public class ThrowerMommy510 implements Runnable
+public class ThrowerMommy511 implements Runnable
 {
 	@Override
 	public void run()
 	{
 		// In Mommy
 		System.out.println("In Mommy");
-		throw new AlikExceptionMommy510();
+		throw new AlikExceptionMommy511();
 	}
 }
