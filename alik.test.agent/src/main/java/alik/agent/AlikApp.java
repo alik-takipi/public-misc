@@ -13,12 +13,12 @@ public class AlikApp
 		{
 			for (int i = 0 ; i < retries ; ++i)
 			{
-				new Thread(new Delegator3(new ThrowerRegularNew509())).start();
+				new Thread(new Delegator3(new ThrowerRegularNew510())).start();
 				
 				Thread.sleep(1000);
 			}
 			
-			Thread.sleep(5090);
+			Thread.sleep(5100);
 
 			return;
 		}
@@ -28,12 +28,12 @@ public class AlikApp
 			for (int i = 0 ; i < retries ; ++i)
 			{
 				
-				new Thread(new ThrowerPack509()).start();
+				new Thread(new ThrowerPack510()).start();
 				
 				Thread.sleep(1000);
 			}
 			
-			Thread.sleep(5090);
+			Thread.sleep(5100);
 
 			return;
 		}
@@ -58,10 +58,10 @@ public class AlikApp
 		{
 			
 			// Regular
-			new Thread(new Delegator3(new ThrowerRegular509())).start();
+			new Thread(new Delegator3(new ThrowerRegular510())).start();
 			
 			// Pack
-			new Thread(new ThrowerPack509()).start();
+			new Thread(new ThrowerPack510()).start();
 //        CtClass ctClass = ClassPool.getDefault().get("alik.agent.ThrowerPack");
 //        new Thread(new Delegator1((ThrowerPack) ctClass.toClass().newInstance())).start();
 //        // Change bytecode to create a pack
@@ -80,13 +80,13 @@ public class AlikApp
 //        new Thread(new ThrowerPack()).start();
 			
 			// Mommy pack
-			new Thread(new Delegator1(new ThrowerMommy509())).start();
-			new Thread(new Delegator2(new ThrowerMommy509())).start();
+			new Thread(new Delegator1(new ThrowerMommy510())).start();
+			new Thread(new Delegator2(new ThrowerMommy510())).start();
 
 			Thread.sleep(1000);
 		}
 		
-		Thread.sleep(5090);
+		Thread.sleep(5100);
 	}
 	
 	private static void throwE()

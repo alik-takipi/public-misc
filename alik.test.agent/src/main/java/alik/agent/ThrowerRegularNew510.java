@@ -1,12 +1,12 @@
 package alik.agent;
 
-public class ThrowerRegularNew509 implements Runnable
+public class ThrowerRegularNew510 implements Runnable
 {
 	@Override
 	public void run()
 	{
 		// In regular New
 		System.out.println("In regular New");
-		throw new AlikExceptionRegularNew509();
+		throw new AlikExceptionRegularNew510();
 	}
 }
