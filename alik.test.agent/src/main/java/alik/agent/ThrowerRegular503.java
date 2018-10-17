@@ -1,6 +1,6 @@
 package alik.agent;
 
-public class ThrowerRegular502 implements Runnable
+public class ThrowerRegular503 implements Runnable
 {
 	@Override
 	public void run()
@@ -19,7 +19,7 @@ public class ThrowerRegular502 implements Runnable
 	
 	private void throwIt()
 	{
-		throw new AlikExceptionRegular502();
+		throw new AlikExceptionRegular503();
 	}
 	
 	@SuppressWarnings("unchecked")
